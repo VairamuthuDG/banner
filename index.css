@@ -1,0 +1,96 @@
+.first{
+    position: relative;
+    height: 90px;
+    width: 728px;
+    background-color:black;
+}
+
+.show{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 30px;
+    column-gap: 20px;
+}
+
+.image{
+    position: absolute;
+    top: 0px;
+    left: 290px;
+    height:90px;
+    width:338px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.txt{
+    position: absolute;
+    bottom:-18px;
+    left:20px;
+    color: white;
+}
+
+.txt1{
+    position: relative;
+    left:10px;
+    top:10px;
+    color: white;
+}
+
+.second{
+    position: relative;
+    height: 90px;
+    width: 728px;
+    background-color:black;
+}
+
+.third{
+    position: relative;
+    height: 90px;
+    width: 728px;
+    background-color:black;
+}
+
+.fourth{
+    position: relative;
+    height: 90px;
+    width: 728px;
+    background-color:black;
+}
+
+.txt2{
+    font-size: medium;
+    color: white;
+}
+
+.fifth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90px;
+    width: 728px;
+    background-image: url('images2.jpg');
+    text-align: center;
+   
+}
+
+.sixth{
+    height:90px;
+    width:728px;
+    font-size: 9px;
+}
+
+.coll{
+    border-collapse: collapse;
+}
+
+table,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.seventh{
+    position: relative;
+    height: 90px;
+    width: 728px;
+    background-image: url('image3.jpg');
+}
